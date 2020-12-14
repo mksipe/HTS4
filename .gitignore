@@ -2,3 +2,4 @@
 Vagrantfile
 Cargo.lock
 .vagrant
+.github
