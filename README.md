@@ -10,7 +10,7 @@ The HTS project was initially developed in one of my older repositories, shell-s
 
 This project is a WIP and probably will be until I feel comfortable deploying this long term. 
 
-## Dependancies
+## Dependencies
 
 Cargo: `apt install cargo -y`
 
