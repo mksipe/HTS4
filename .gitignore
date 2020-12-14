@@ -1,3 +1,4 @@
 /target
 Vagrantfile
 Cargo.lock
+.vagrant
