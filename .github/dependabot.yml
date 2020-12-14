@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "cargo"
-    directory: "Cargo.toml"
+    directory: "./Cargo.toml"
     schedule:
       interval: "daily"
