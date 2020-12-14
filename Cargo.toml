@@ -1,0 +1,11 @@
+[package]
+name = "HTS4"
+version = "0.1.0"
+authors = ["mksipe <masonsipe0513@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+which = "4.0.2"
+colored = "2"
