@@ -1,10 +1,10 @@
 use which::which;
 use colored::*;
-use clap::{Arg, App, SubCommand};
+use clap::{Arg, App};
 
 fn main() {
     let matches = App::new("HTS4")
-        .version("4.1")
+        .version("4.1.1")
         .author("Mason Sipe <m-sipe@protonmaill.com>")
         .about("Searches for executables that are installed on your system. 
 This is free software, and you are welcome to redistribute it under certain conditions.")
@@ -283,9 +283,9 @@ fn executables() {
     ];
     for obj in list.iter() {
         let out = which::which(obj.clone());
-        let ret = match out {
-            Ok(ref ret) => println!("[{}] {:?}", "+".red(), out.unwrap()),
-            Err(error) => print!("{}", ""),
+        let _ret = match out {
+            Ok(ref _ret) => println!("[{}] {:?}", "+".red(), out.unwrap()),
+            Err(_error) => print!("{}", ""),
         };
     }
 }
