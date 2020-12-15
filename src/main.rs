@@ -4,7 +4,7 @@ use clap::{Arg, App};
 
 fn main() {
     let matches = App::new("HTS4")
-        .version("4.1.3")
+        .version("4.1.4")
         .author("Mason Sipe <m-sipe@protonmaill.com>")
         .about("Searches for executables that are installed on your system. 
 This is free software, and you are welcome to redistribute it under certain conditions.")
@@ -289,6 +289,56 @@ fn executables() {
         "t50",
         "termineter",
         "thc-ssl-dos",
+        // Sectools list
+        "ophcrack-cli",
+        "nessuscli",
+        "snort",
+        "tcpdump",
+        "scapy",
+        "hydra",
+        "medusa",
+        "radare2",
+        "rainbowcrack",
+        "brutus",
+        "ike-scan",
+        "truecrypt",
+        "openssl",
+        "tor",
+        "stunnel",
+        "transmission",
+        "drupal",
+        "ollydbg",
+        "gdb",
+        "helix",
+        "autopsy",
+        "wapiti",
+        "telnet",
+        "socat",
+        "nemesis",
+        "ettercap",
+        "dsniff",
+        "ntop",
+        "ngrep",
+        "etherape",
+        "inssider",
+        "kismac",
+        "canvas",
+        "netsparker",
+        "webgoat",
+        "splunk",
+        "nagios",
+        "argus",
+        "nexpose",
+        "qulysguard",
+        "mbsa",
+        "retina",
+        "nipper",
+        "fiddler",
+        "sslstrip",
+        "ratproxy",
+        "websecurify",
+        "dirbuster",
+        "grendel-scan",
 
     ];
     for obj in list.iter() {
