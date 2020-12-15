@@ -1,6 +1,6 @@
 [package]
-name = "HTS4"
-version = "0.1.0"
+name = "hts4"
+version = "1.0.0"
 authors = ["mksipe <masonsipe0513@gmail.com>"]
 edition = "2018"
 
