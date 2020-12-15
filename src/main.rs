@@ -61,9 +61,9 @@ fn services() {
     ];
     for obj in list.iter() {
         let out = which::which(obj.clone());
-        let ret = match out {
-            Ok(ref ret) => println!("[{}] {:?}", "+".yellow(), out.unwrap()),
-            Err(error) => print!("{}", ""),
+        let _ret = match out {
+            Ok(_ref ret) => println!("[{}] {:?}", "+".yellow(), out.unwrap()),
+            Err(_error) => print!("{}", ""),
         };
     }
 } //nice
