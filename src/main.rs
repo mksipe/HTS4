@@ -20,12 +20,22 @@ This is free software, and you are welcome to redistribute it under certain cond
             .value_name("Executables")
             .help("Looks for executable programs on your system")
             .takes_value(false))
+        .arg(Arg::with_name("find-all")
+            .short("a")
+            .long("find-all")
+            .value_name("Find-All")
+            .help("Searches for all listed tools, services, etc.")
+            .takes_value(false))
     .get_matches();
     if matches.is_present("services") {
         services();
     }
     if matches.is_present("executable") {
         executables();
+    }
+    if matches.is_present("find-all") {
+        executables();
+        services();
     }
 }
 
