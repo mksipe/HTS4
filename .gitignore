@@ -1,4 +1,5 @@
 /target
+src/cringe/target
 Vagrantfile
 Cargo.lock
 .vagrant
