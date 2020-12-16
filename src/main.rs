@@ -2,7 +2,7 @@ use clap::{Arg, App};
 
 fn main() {
     let matches = App::new("HTS4")
-        .version("4.2.1")
+        .version("4.2.2-1.1")
         .author("Mason Sipe <m-sipe@protonmaill.com>")
         .about("Searches for executables that are installed on your system. 
 This is free software, and you are welcome to redistribute it under certain conditions.")
