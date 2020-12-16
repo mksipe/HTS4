@@ -10,3 +10,8 @@ edition = "2018"
 which = "4.0.2"
 colored = "2"
 clap = "2.33.3"
+
+
+[lib]
+name = "cringe"
+path = "src/cringe/src/lib.rs"
