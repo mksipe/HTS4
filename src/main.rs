@@ -24,7 +24,7 @@ This is free software, and you are welcome to redistribute it under certain cond
             .value_name("Find-All")
             .help("Searches for all listed tools, services, etc.")
             .takes_value(false))
-        .arg(Arg::with_name("Games")
+        .arg(Arg::with_name("games")
             .short("g")
             .long("games")
             .value_name("Games")
