@@ -4,6 +4,8 @@ pub fn main() {
     println!("{}","Executables".green());
     let list = vec![
         //list of executables to search for
+        "ssh",
+        "nc",
         // Kali tool list
         "ace",
         "amap",
