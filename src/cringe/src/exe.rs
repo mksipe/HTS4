@@ -6,6 +6,9 @@ pub fn main() {
         //list of executables to search for
         "ssh",
         "nc",
+        "zenmap",
+        "ophcrack",
+        "macchanger",
         // Kali tool list
         "ace",
         "amap",
