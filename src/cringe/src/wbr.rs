@@ -1,0 +1,82 @@
+use colored::*;
+
+pub fn main() {
+    println!("{}","\nWeb Protocols/Apps ".green());
+    let list = vec![
+        //list of services to search for
+        "elinks",
+        "info2www",
+        "java2html",
+        "links",
+        "links2",
+        "netrik",
+        "chromium",
+        "firefox",
+        "python3-mechanize",
+        "smb2www",
+        "surfraw",
+        "torbrowser-launcher",
+        "w3m",
+        "wapua",
+        "webhttrack",
+        "akregator",
+        "alevt",
+        "alice",
+        "ams",
+        "amule-gnome-support",
+        "appmenu-registrar",
+        "artemis",
+        "aspectj",
+        "autex",
+        "aview",
+        "b374k",
+        "babel-minify",
+        "betaradio",
+        "blixem",
+        "bluedevel",
+        "bluefish",
+        "buku",
+        "cervisia",
+        "chai",
+        "chrome-gnome-shell",
+        "chromhmm",
+        "claws-mail-dillo-viewer",
+        "cockpit",
+        "codeblocks",
+        "cog",
+        "cookie-cadger",
+        "cricket",
+        "d-feet",
+        "ddgr",
+        "dillo",
+        "iceweasel",
+        "epipany-browser",
+        "falkon",
+        "fex",
+        "filetea",
+        "firefox",
+        "firefox-esr",
+        "gtml",
+        "qbittorrent",
+        "ctorrent",
+        "transmission",
+        "aria2",
+        "biglybt",
+        "bitstormlite",
+        "btcheck",
+        "buildtorrent",
+        "cnvkit",
+        "ktorrent",
+        "rhash",
+        "rtorrent",
+        
+
+    ];
+    for obj in list.iter() {
+        let out = which::which(obj.clone());
+        let _ret = match out {
+            Ok(ref _ret) => println!("[{}] {:?}", "+".yellow(), out.unwrap()),
+            Err(_error) => print!("{}", ""),
+        };
+    }
+}

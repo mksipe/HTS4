@@ -1,7 +1,7 @@
 use colored::*;
 
 pub fn main() {
-    println!("{}","Games".green());
+    println!("{}","\nGames".green());
     let list = vec![
         "0ad",
         "2048",

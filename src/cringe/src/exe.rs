@@ -1,7 +1,7 @@
 use colored::*;
 
 pub fn main() {
-    println!("{}","Executables".green());
+    println!("{}","\nExecutables".green());
     let list = vec![
         //list of executables to search for
         "ssh",
@@ -9,6 +9,7 @@ pub fn main() {
         "zenmap",
         "ophcrack",
         "macchanger",
+        "darkstat",
         // Kali tool list
         "ace",
         "amap",

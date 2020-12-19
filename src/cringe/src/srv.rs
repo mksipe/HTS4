@@ -1,7 +1,7 @@
 use colored::*;
 
 pub fn main() {
-    println!("{}","Services".green());
+    println!("{}","\nServices".green());
     let list = vec![
         //list of services to search for
         //Preferrably ones that provide network services
@@ -29,6 +29,17 @@ pub fn main() {
         "lighttpd",     // Light HTTP Service
         "sendmail",     // Mail server daemon
         "vsftpd",       // Very Secure FTP daemon
+        "daphne",       // Django channels WebSocket Server
+        "micro-httpd",  // Really small http server
+        "nghttpd",      // Server, proxy and client implementing HTTP/2
+        "qweborf",      // Share files using the HTTP protocol
+        "mini_httpd",   // Small HTTP Server
+        "tntnet",       // modular, multithreaded web application server for CPP
+        "uvicorn",      // ASGI server implementation using uvloop and httptools
+        "webfsd",       // lightweight HTTP server for static content
+        "weborf",       // Fast and small webserver meant to be run without root privileges
+        "yaws",         // High performance HTTP 1.1 webserver written in erlang
+        "drupal",
     ];
     for obj in list.iter() {
         let out = which::which(obj.clone());

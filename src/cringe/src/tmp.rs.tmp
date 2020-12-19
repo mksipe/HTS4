@@ -1,0 +1,15 @@
+use colored::*;
+
+pub fn main() {
+    println!("{}","Services".green());
+    let list = vec![
+        //list of services to search for
+    ];
+    for obj in list.iter() {
+        let out = which::which(obj.clone());
+        let _ret = match out {
+            Ok(ref _ret) => println!("[{}] {:?}", "+".yellow(), out.unwrap()),
+            Err(_error) => print!("{}", ""),
+        };
+    }
+}
