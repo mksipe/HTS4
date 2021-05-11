@@ -6,7 +6,7 @@ if [ $(/usr/bin/id -u) -ne 0 ] ; then
 elif [ $(/usr/bin/id -u) -eq 0 ]; then
     if [ $(which cargo > /dev/null ; echo $?) -ne 0 ]; then
         printf "Cargo is not installed.\n"
-    elif [ $(which cargo > /dev/nulll; echo $?) -eq 0 ]; then
+    elif [ $(which cargo > /dev/null; echo $?) -eq 0 ]; then
         printf "Making installation.\n"
         printf "Compiling binaries...\n" 
         cargo build
