@@ -9,7 +9,7 @@ elif [ $(/usr/bin/id -u) -eq 0 ]; then
     elif [ $(which cargo > /dev/null; echo $?) -eq 0 ]; then
         printf "Making installation.\n"
         printf "Compiling binaries...\n" 
-        cargo build
+        cargo build --release
         cp target/debug/hts4 /usr/bin/ > /dev/null
        	if [ $(which hts4 > /dev/null; echo $?) -eq 0 ]; then
 		printf "`hts4 -V`, has been installed.\n"
