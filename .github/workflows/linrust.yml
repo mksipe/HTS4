@@ -17,6 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: sudo apt install cargo; sudo chmod 755 Install.sh; sudo ./Install.sh
+      run: sudo apt install cargo -y -q; sudo chmod 755 Install.sh; sudo ./Install.sh
     - name: Run
       run: cargo run -- -a
