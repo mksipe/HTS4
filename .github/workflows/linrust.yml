@@ -19,4 +19,4 @@ jobs:
     - name: Build
       run: sudo chmod 755 Install.sh; sudo ./Install.sh
     - name: Run
-      run: cargo run hts4 -a
+      run: cargo run -- -a
