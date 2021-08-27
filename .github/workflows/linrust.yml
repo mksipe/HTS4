@@ -17,6 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: chmod 755 Install.sh; ./Install.sh
+      run: sudo chmod 755 Install.sh; sudo ./Install.sh
     - name: Run
       run: cargo run hts4 -a
