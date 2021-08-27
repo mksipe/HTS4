@@ -267,6 +267,7 @@ pub fn main() {
         "websecurify",
         "dirbuster",
         "grendel-scan",
+        "cain",
 
     ];
     for obj in list.iter() {
