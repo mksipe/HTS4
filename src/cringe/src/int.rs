@@ -41,7 +41,7 @@ pub fn main() {
     for obj in list.iter() {
         let out = which::which(obj.clone());
         let _ret = match out {
-            Ok(ref _ret) => println!("[{}] {:?}", "+".orange(), out.unwrap()),
+            Ok(ref _ret) => println!("[{}] {:?}", "+".cyan(), out.unwrap()),
             Err(_error) => print!("{}", ""),
         };
     }
