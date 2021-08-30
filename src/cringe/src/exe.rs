@@ -268,6 +268,13 @@ pub fn main() {
         "dirbuster",
         "grendel-scan",
         "cain",
+        "git",
+        "ospprearm",
+        "integratedoffice",
+        "putty",
+        "msaccess",
+        "thonny",
+        
 
     ];
     for obj in list.iter() {

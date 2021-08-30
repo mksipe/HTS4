@@ -37,6 +37,12 @@ This is free software, and you are welcome to redistribute it under certain cond
             .value_name("Web")
             .help("Searches for web binaries on your system")
             .takes_value(false))
+        .arg(Arg::with_name("Interpreter")
+            .short("i")
+            .long("interpreter")
+            .value_name("Interpreter")
+            .help("Searches for language interpreters or compilers on your system")
+            .takes_value(false))        
     .get_matches();
     if matches.is_present("services") {
         cringe::srv::main();
@@ -50,11 +56,15 @@ This is free software, and you are welcome to redistribute it under certain cond
     if matches.is_present("web"){
         cringe::wbr::main();
     }
+    if matches.is_present("interpreter"){
+        cringe::int::main();
+    }
     if matches.is_present("find-all") {
         cringe::exe::main();
         cringe::srv::main();
         cringe::wbr::main();
         cringe::gme::main();
+        cringe::int::main();
     }
 }
 
