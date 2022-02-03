@@ -28,6 +28,8 @@ These set of instructions are to run this program once with cargo, then can be s
 
 #### Installation
 
+> This is for the most recent changes. They may work, they may not. The most stable versions are in releases.
+
 1. `git clone https://github.com/mksipe/HTS4`
 2. `cd HTS4`
 3. `cargo run -- -h`
