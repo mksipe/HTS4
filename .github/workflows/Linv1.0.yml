@@ -19,6 +19,6 @@ jobs:
     - name: Install cargo
       run: sudo apt-get update; sudo apt-get install cargo -y -q
     - name: Build
-      run:  git checkout "8c09040cc235b9ae1a25d4d1d29a23bca1f6f862"; sudo chmod 755 Install.sh; sudo ./Install.sh
+      run:  git switch -c 8c09040cc235b9ae1a25d4d1d29a23bca1f6f862; sudo chmod 755 Install.sh; sudo ./Install.sh
     - name: Run
       run: sudo hts4 -a
