@@ -9,10 +9,15 @@ The HTS project was initially developed in one of my older repositories, shell-s
 
 #### Status
 |OS|Status|
-|-|-|
-|Linux|[![Rust - Linux](https://github.com/mksipe/HTS4/actions/workflows/linrust.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/linrust.yml)|
-|Windows|[![Rust - Windows](https://github.com/mksipe/HTS4/actions/workflows/winrust.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/winrust.yml)|
-|Mac|[![Rust - Mac](https://github.com/mksipe/HTS4/actions/workflows/macrust.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/macrust.yml)|
+|:-:|:-:|
+|Ubuntu Latest |[![Rust - Linux](https://github.com/mksipe/HTS4/actions/workflows/linrust.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/linrust.yml)|
+|Ubuntu 18.04  |[![Rust - Linux 18.04](https://github.com/mksipe/HTS4/actions/workflows/lin1804.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/lin1804.yml)|
+|Ubuntu 20.04  |[![Rust - Linux 20.04](https://github.com/mksipe/HTS4/actions/workflows/lin2004.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/lin2004.yml)|
+|Windows Latest|[![Rust - Windows](https://github.com/mksipe/HTS4/actions/workflows/winrust.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/winrust.yml)|
+|Windows 2016  |[![Rust - Windows2016](https://github.com/mksipe/HTS4/actions/workflows/win2016.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/win2016.yml)|
+|Windows 2019  |[![Rust - Windows 2019](https://github.com/mksipe/HTS4/actions/workflows/win2019.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/win2019.yml)|
+|Windows 2022  |[![Rust - Windows2022](https://github.com/mksipe/HTS4/actions/workflows/win2022.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/win2022.yml)|
+|Mac Latest|[![Rust - Mac](https://github.com/mksipe/HTS4/actions/workflows/macrust.yml/badge.svg)](https://github.com/mksipe/HTS4/actions/workflows/macrust.yml)|
 
 ## Dependencies
 
