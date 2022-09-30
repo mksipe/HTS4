@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 which = "4.2.4"
 colored = "2"
-clap = "3.0.14"
+clap = "4.0.7"
 
 [lib]
 name = "cringe"
