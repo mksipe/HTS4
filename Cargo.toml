@@ -2,14 +2,14 @@
 name = "hts4"
 version = "1.0.0"
 authors = ["mksipe <masonsipe0513@gmail.com>"]
-edition = "2018"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 which = "5.0.0"
 colored = "2"
-clap = "4.0.15"
+clap = "3.*"
 
 [lib]
 name = "cringe"
