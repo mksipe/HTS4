@@ -1,4 +1,4 @@
-name: Rust on Ubuntu-Latest
+name: Rust on MacOS-Latest
 
 on:
   push:
