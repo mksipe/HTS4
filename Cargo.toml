@@ -9,7 +9,7 @@ edition = "2021"
 [dependencies]
 which = "5.0.0"
 colored = "2"
-clap = "3.*"
+clap = "4.*"
 
 [lib]
 name = "cringe"
